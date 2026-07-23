@@ -5,7 +5,7 @@
     </td>
     <td valign="middle">
       <h1>MacTorrServer</h1>
-      <p>A tiny native macOS controller for TorrServer. Start it, copy the local URL into Luxo on Apple TV, and stream from your home network.</p>
+      <p>A tiny native macOS controller for TorrServer. Start the server, copy a local URL, and use it from your home network.</p>
     </td>
   </tr>
 </table>
@@ -23,7 +23,6 @@
 - Apple Silicon Mac
 - macOS 26 or newer
 - Xcode 26 or newer
-- Apple TV and Mac on the same local network
 
 ## Install locally
 
@@ -35,12 +34,12 @@ cd MacTorrServer
 
 The script builds `MacTorrServer.app`, compiles the native adaptive icon, downloads the official TorrServer ARM64 binary, and installs the app in `/Applications` when permitted (otherwise in the user's Applications folder).
 
-## Use with Luxo
+## Use
 
 1. Open **MacTorrServer**.
 2. Select **Start Server**.
 3. Copy the address labelled **Local Network**.
-4. Paste it into Luxo's TorrServer setting.
+4. Add it to the TorrServer-compatible client or service you use.
 
 The server listens on port `8090`. Keep the app running while you use it; select **Stop Server** to stop the server.
 
