@@ -69,6 +69,4 @@ MacTorrServer downloads an unmodified TorrServer binary from the official [YouRO
 
 MacTorrServer is available under the [MIT License](LICENSE). TorrServer has its own GPL-3.0 license.
 
-![GitHub Repo stars](https://img.shields.io/github/stars/maaatheeew/MacTorrServer)
-
 [![Star History Chart](https://api.star-history.com/svg?repos=maaatheeew%2FMacTorrServer&type=Date)](https://star-history.com/#maaatheeew/MacTorrServer&Date)
