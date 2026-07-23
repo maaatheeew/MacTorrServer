@@ -1,0 +1,10 @@
+.build/
+*.app
+.DS_Store
+tmp-server-diagnostic/
+.assistant/
+.claude/
+.harness-lock
+.memory-bank/
+AGENTS.md
+CLAUDE.md
