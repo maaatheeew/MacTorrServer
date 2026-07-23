@@ -26,13 +26,19 @@
 
 ## Install locally
 
+Download `MacTorrServer-1.0.0.dmg` from the [latest release](https://github.com/maaatheeew/MacTorrServer/releases/latest), open it, and drag **MacTorrServer** to **Applications**.
+
+To build from source instead:
+
 ```bash
 git clone https://github.com/maaatheeew/MacTorrServer.git
 cd MacTorrServer
-./scripts/install-app.sh
+bash scripts/install-app.sh
 ```
 
 The script builds `MacTorrServer.app`, compiles the native adaptive icon, downloads the official TorrServer ARM64 binary, and installs the app in `/Applications` when permitted (otherwise in the user's Applications folder).
+
+To create a DMG from the installed app, run `bash scripts/create-dmg.sh`.
 
 ## Use
 
