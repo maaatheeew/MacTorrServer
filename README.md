@@ -10,6 +10,10 @@
   </tr>
 </table>
 
+<p align="center">
+  <img src="docs/assets/MacTorrServer-screenshot.png" alt="MacTorrServer window showing a running server and local addresses" width="620">
+</p>
+
 ## Highlights
 
 - Native SwiftUI app for macOS 26
